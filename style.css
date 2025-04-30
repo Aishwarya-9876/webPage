@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 640px; */
+
+
+    color: white;
+
+}
+.navlist {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 0px;
+    z-index: 5;
+}
+.navlist ul li {
+
+    list-style: none;
+    padding: 10px 15px;
+    position: sticky;
+    /* top: 0;
+    left: 0; */
+    /* z-index: 2; */
+
+
+    /* flex-direction: row; */
+}
+a {
+    color: white;
+    padding: 5px 14px;
+
+}
+.navlist ul a {
+
+    text-decoration: none;
+}
+li :hover {
+    background-color: rgba(68, 85, 215, 0.795);
+    border-radius: 60%;
+    transition:  ease-out 0.30s;
+
+    /* text-decoration: none;
+    padding: 0.5rem 0.75rem ;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fefefe;
+    position: relative;
+    transition: color 0.25s; */
+
+}
+
+.navlist ul {
+    display: flex;
+
+
+}
+
+.head {
+    font-size: 25px;
+}
+
+.box {
+
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.container {
+    width: 100%;
+    height: 61vh;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+
+
+}
+
+.container::before {
+    content: " ";
+    background: url('https://climatecommunication.yale.edu/wp-content/uploads/2017/04/001-stone-circle-jpeg-768x350.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+
+}
+
+
+
+.boxes {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+#box1 {
+    background-color: #1c8e77;
+    /* margin-top: 170px; */
+}
+
+#box2 {
+    background-color: #cd26a0;
+}
+
+#box3 {
+    background-color: #300e0e;
+}
+
+#box4 {
+    background-color: #7e8815;
+}
